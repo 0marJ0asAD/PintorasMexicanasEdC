@@ -1,0 +1,1271 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: monospace;
+  background-color: rgb(250, 142, 205);
+}
+
+/* Responsive Design */
+@media (max-width: 575px) {
+  .Encabezado-P2 {
+    text-align: center;
+    padding: 5vw;
+  }
+  .Encabezado-P2 h1 {
+    font-size: 4.96vw;
+    color: purple;
+    text-transform: uppercase;
+  }
+  .Encabezado-P2 h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 {
+    text-align: center;
+  }
+  .Menu-P2 .Mujeres-Sociedad {
+    text-align: left;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b {
+    font-size: 5vw;
+    color: white;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em {
+    font-size: 5vw;
+    color: black;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres {
+    text-align: left;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b {
+    font-size: 3.8vw;
+    color: white;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em {
+    font-size: 5vw;
+    color: black;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .MujeresPintoras {
+    text-align: end;
+    padding: 5vw;
+  }
+  .Menu-P2 .MujeresPintoras b {
+    font-size: 5vw;
+    color: purple;
+  }
+  .Menu-P2 .MujeresPintoras b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b {
+    font-size: 7vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em {
+    font-size: 5vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img {
+    height: 80vw;
+    width: 80vw;
+    border: 2vw solid aqua;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img:hover {
+    border: 2vw solid orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p {
+    font-size: 5vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b {
+    font-size: 7vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em {
+    font-size: 5vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img {
+    height: 80vw;
+    width: 80vw;
+    border: 2vw solid orange;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img:hover {
+    border: 2vw solid greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p {
+    font-size: 5vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b {
+    font-size: 7vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em {
+    font-size: 5vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img {
+    height: 80vw;
+    width: 80vw;
+    border: 2vw solid greenyellow;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img:hover {
+    border: 2vw solid yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p {
+    font-size: 5vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b {
+    font-size: 7vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em {
+    font-size: 5vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img {
+    height: 80vw;
+    width: 80vw;
+    border: 2vw solid yellow;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img:hover {
+    border: 2vw solid aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro {
+    padding: 2.5vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p {
+    font-size: 5vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .PieDePágina-P2 {
+    text-align: center;
+  }
+  .PieDePágina-P2 .Referencias-P2 {
+    text-align: left;
+    padding: 2.5vw;
+  }
+  .PieDePágina-P2 .Referencias-P2 p {
+    font-size: 7vw;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 {
+    padding: 2.5vw;
+    text-align: left;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 li {
+    font-size: 6vw;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 a {
+    font-size: 6vw;
+    text-decoration: none;
+    color: aquamarine;
+  }
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 5.5vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .Encabezado-P2 {
+    text-align: center;
+    padding: 10px;
+  }
+  .Encabezado-P2 h1 {
+    font-size: 30px;
+    color: purple;
+    text-transform: uppercase;
+  }
+  .Encabezado-P2 h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 {
+    text-align: center;
+  }
+  .Menu-P2 .Mujeres-Sociedad {
+    text-align: left;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo {
+    padding: 10px;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b {
+    font-size: 20px;
+    color: white;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción {
+    padding: 10px;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em {
+    font-size: 15px;
+    color: black;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres {
+    text-align: left;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo {
+    padding: 10px;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b {
+    font-size: 20px;
+    color: white;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción {
+    padding: 10px;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em {
+    font-size: 15px;
+    color: black;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .MujeresPintoras {
+    text-align: end;
+    padding: 10px;
+  }
+  .Menu-P2 .MujeresPintoras b {
+    font-size: 20px;
+    color: purple;
+  }
+  .Menu-P2 .MujeresPintoras b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b {
+    font-size: 20px;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em {
+    font-size: 15px;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img {
+    height: 350px;
+    width: 350px;
+    border: 5px solid aqua;
+    border-radius: 200px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img:hover {
+    transform: scale(1.1);
+    border: 5px solid orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p {
+    font-size: 15px;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b {
+    font-size: 20px;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em {
+    font-size: 15px;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img {
+    height: 350px;
+    width: 350px;
+    border: 5px solid orange;
+    border-radius: 200px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img:hover {
+    transform: scale(1.1);
+    border: 5px solid greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p {
+    font-size: 15px;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b {
+    font-size: 20px;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em {
+    font-size: 15px;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img {
+    height: 350px;
+    width: 350px;
+    border: 5px solid greenyellow;
+    border-radius: 200px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img:hover {
+    transform: scale(1.1);
+    border: 5px solid yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p {
+    font-size: 15px;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b {
+    font-size: 20px;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em {
+    font-size: 15px;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img {
+    height: 350px;
+    width: 350px;
+    border: 5px solid yellow;
+    border-radius: 200px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img:hover {
+    transform: scale(1.1);
+    border: 5px solid aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro {
+    padding: 10px;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p {
+    font-size: 15px;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .PieDePágina-P2 {
+    text-align: center;
+  }
+  .PieDePágina-P2 .Referencias-P2 {
+    text-align: left;
+    padding: 10px;
+  }
+  .PieDePágina-P2 .Referencias-P2 p {
+    font-size: 20px;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 {
+    text-align: left;
+    padding: 10px;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 li {
+    font-size: 12px;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 a {
+    font-size: 16px;
+    text-decoration: none;
+    color: aquamarine;
+  }
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 25px;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+}
+@media (min-width: 769px) {
+  .Encabezado-P2 {
+    padding: 2.5vw;
+    text-align: center;
+  }
+  .Encabezado-P2 h1 {
+    font-size: 4vw;
+    color: purple;
+    text-transform: uppercase;
+  }
+  .Encabezado-P2 h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 {
+    text-align: center;
+  }
+  .Menu-P2 .Mujeres-Sociedad {
+    text-align: left;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo {
+    padding: 1.5vw;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b {
+    font-size: 2.5vw;
+    color: white;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción {
+    padding: 1.5vw;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em {
+    font-size: 2vw;
+    color: black;
+  }
+  .Menu-P2 .Mujeres-Sociedad .MujeresSociedad-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres {
+    text-align: left;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo {
+    padding: 1.5vw;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b {
+    font-size: 2.5vw;
+    color: white;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Titulo b:hover {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción {
+    padding: 1.5vw;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em {
+    font-size: 2vw;
+    color: black;
+  }
+  .Menu-P2 .Participación-Mujeres .ParticipaciónMujeres-Descripción em:hover {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-P2 .MujeresPintoras {
+    text-align: end;
+    padding: 1.5vw;
+  }
+  .Menu-P2 .MujeresPintoras b {
+    font-size: 2.5vw;
+    color: purple;
+  }
+  .Menu-P2 .MujeresPintoras b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres {
+    display: flex;
+    justify-content: center;
+    border: 0.5vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b {
+    font-size: 2vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Nombre-LilliaCarrillo b:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em {
+    font-size: 1.7vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Biografía-LilliaCarrillo em:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img {
+    height: 20vw;
+    width: 20vw;
+    border: 0.6vw solid aqua;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Imagen-LilliaCarrillo img:hover {
+    border: 0.6vw solid orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p {
+    font-size: 1.7vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LilliaCarrillo .Descripción-LilliaCarrillo p:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b {
+    font-size: 2vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Nombre-LolaCueto b:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em {
+    font-size: 1.7vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Biografía-LolaCueto em:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img {
+    height: 20vw;
+    width: 20vw;
+    border: 0.6vw solid orange;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Imagen-LolaCueto img:hover {
+    border: 0.6vw solid greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p {
+    font-size: 1.7vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-LolaCueto .Descripción-LolaCueto p:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b {
+    font-size: 2vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Nombre-CeliaCalderon b:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em {
+    font-size: 1.5vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Biografía-CeliaCalderon em:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img {
+    height: 20vw;
+    width: 20vw;
+    border: 0.6vw solid greenyellow;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Imagen-CeliaCalderon img:hover {
+    border: 0.6vw solid yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p {
+    font-size: 1.7vw;
+    color: yellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-CeliaCalderon .Descripción-CeliaCalderon p:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5vw solid red;
+    background-color: purple;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b {
+    font-size: 2vw;
+    color: orange;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Nombre-RemediosVaro b:hover {
+    color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em {
+    font-size: 1.4vw;
+    color: greenyellow;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Biografía-RemediosVaro em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img {
+    height: 20vw;
+    width: 20vw;
+    border: 0.6vw solid yellow;
+    border-radius: 50vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Imagen-RemediosVaro img:hover {
+    border: 0.6vw solid aqua;
+    transition: 2s;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro {
+    padding: 1vw;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p {
+    font-size: 1.7vw;
+    color: aqua;
+  }
+  .Menu-P2 .Cuadros-Mujeres .Cuadro-RemediosVaro .Descripción-RemediosVaro p:hover {
+    color: orange;
+    transition: 2s;
+  }
+  .PieDePágina-P2 {
+    text-align: center;
+  }
+  .PieDePágina-P2 .Referencias-P2 {
+    padding: 2vw;
+    text-align: left;
+  }
+  .PieDePágina-P2 .Referencias-P2 p {
+    font-size: 2.5vw;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 {
+    padding: 2vw;
+    text-align: left;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 li {
+    font-size: 2vw;
+  }
+  .PieDePágina-P2 .Lista-Referencias-P2 a {
+    font-size: 2.9vw;
+    text-decoration: none;
+    color: aquamarine;
+  }
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 20px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 3vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+}
+
+/*# sourceMappingURL=Proyecto2.css.map */

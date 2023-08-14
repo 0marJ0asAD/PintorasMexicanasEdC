@@ -1,0 +1,1690 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: monospace;
+    background-color: rgb(250, 142, 205);
+}
+
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Encabezado-P2{
+        text-align: center;
+        padding: 5vw;
+
+        h1{
+            font-size: 4.96vw;
+            color: purple;
+            text-transform: uppercase;
+        }
+
+        h1:hover{
+            color: red;
+            transition: 2s;
+        }
+
+    }
+
+    .Menu-P2{
+        text-align: center;
+
+        .Mujeres-Sociedad{
+            text-align: left;
+
+            .MujeresSociedad-Titulo{
+                padding: 2.5vw;
+
+                b{
+                    font-size: 5vw;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .MujeresSociedad-Descripción{
+                padding: 2.5vw;
+
+                em{
+                    font-size: 5vw;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Participación-Mujeres{
+            text-align: left;
+
+            .ParticipaciónMujeres-Titulo{
+                padding: 2.5vw;
+
+                b{
+                    font-size: 3.8vw;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .ParticipaciónMujeres-Descripción{
+                padding: 2.5vw;
+
+                em{
+                    font-size: 5vw;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .MujeresPintoras{
+            text-align: end;
+            padding: 5vw;
+
+            b{
+                font-size: 5vw;
+                color: purple;
+            }
+
+            b:hover{
+                color: red;
+                transition: 2s;
+            }
+
+        }
+
+        .Cuadros-Mujeres{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1vw solid red;
+            background-color: purple;
+
+            .Cuadro-LilliaCarrillo{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 1vw solid red;
+                background-color: purple;
+
+                .Nombre-LilliaCarrillo{
+                    padding: 2.5vw;
+
+                    b{
+                        font-size: 7vw;
+                        color: greenyellow;
+                    }
+
+                    b:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LilliaCarrillo{
+                    padding: 2.5vw;
+
+                    em{
+                        font-size: 5vw;
+                        color: yellow;
+                    }
+
+                    em:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LilliaCarrillo{
+                    padding: 2.5vw;
+
+                    img{
+                        height: 80vw;
+                        width: 80vw;
+                        border: 2vw solid aqua;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 2vw solid orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LilliaCarrillo{
+                    padding: 2.5vw;
+
+                    p{
+                        font-size: 5vw;
+                        color: orange;
+                    }
+
+                    p:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-LolaCueto{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 1vw solid red;
+                background-color: purple;
+
+                .Nombre-LolaCueto{
+                    padding: 2.5vw;
+
+                    b{
+                        font-size: 7vw;
+                        color: yellow;
+                    }
+
+                    b:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LolaCueto{
+                    padding: 2.5vw;
+
+                    em{
+                        font-size: 5vw;
+                        color: aqua;
+                    }
+
+                    em:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LolaCueto{
+                    padding: 2.5vw;
+
+                    img{
+                        height: 80vw;
+                        width: 80vw;
+                        border: 2vw solid orange;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 2vw solid greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LolaCueto{
+                    padding: 2.5vw;
+
+                    p{
+                        font-size: 5vw;
+                        color: greenyellow;
+                    }
+
+                    p:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-CeliaCalderon{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 1vw solid red;
+                background-color: purple;
+
+                .Nombre-CeliaCalderon{
+                    padding: 2.5vw;
+
+                    b{
+                        font-size: 7vw;
+                        color: aqua;
+                    }
+
+                    b:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-CeliaCalderon{
+                    padding: 2.5vw;
+
+                    em{
+                        font-size: 5vw;
+                        color: orange;
+                    }
+
+                    em:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-CeliaCalderon{
+                    padding: 2.5vw;
+
+                    img{
+                        height: 80vw;
+                        width: 80vw;
+                        border: 2vw solid greenyellow;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 2vw solid yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-CeliaCalderon{
+                    padding: 2.5vw;
+
+                    p{
+                        font-size: 5vw;
+                        color: yellow;
+                    }
+
+                    p:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-RemediosVaro{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 1vw solid red;
+                background-color: purple;
+
+                .Nombre-RemediosVaro{
+                    padding: 2.5vw;
+
+                    b{
+                        font-size: 7vw;
+                        color: orange;
+                    }
+
+                    b:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-RemediosVaro{
+                    padding: 2.5vw;
+
+                    em{
+                        font-size: 5vw;
+                        color: greenyellow;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-RemediosVaro{
+                    padding: 2.5vw;
+
+                    img{
+                        height: 80vw;
+                        width: 80vw;
+                        border: 2vw solid yellow;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 2vw solid aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-RemediosVaro{
+                    padding: 2.5vw;
+
+                    p{
+                        font-size: 5vw;
+                        color: aqua;
+                    }
+
+                    p:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .PieDePágina-P2{
+        text-align: center;
+
+        .Referencias-P2{
+            text-align: left;
+            padding: 2.5vw;
+
+            p{
+                font-size: 7vw;
+            }
+
+        }
+
+        .Lista-Referencias-P2{
+            padding: 2.5vw;
+            text-align: left;
+
+            li{
+                font-size: 6vw;
+            }
+
+            a{
+                font-size: 6vw;
+                text-decoration: none;
+                color: aquamarine;
+            }
+
+        }
+
+    }
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 5vw;
+
+        .RedesSociales-Texto{
+            padding: 2.5vw;
+
+            small{
+                font-size: 5.5vw;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2.5vw;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid aqua;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid gray;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid blue;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid orange;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Encabezado-P2{
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            font-size: 30px;
+            color: purple;
+            text-transform: uppercase;
+        }
+
+        h1:hover{
+            color: red;
+            transition: 2s;
+        }
+
+    }
+
+    .Menu-P2{
+        text-align: center;
+
+        .Mujeres-Sociedad{
+            text-align: left;
+
+            .MujeresSociedad-Titulo{
+                padding: 10px;
+
+                b{
+                    font-size: 20px;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .MujeresSociedad-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 15px;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Participación-Mujeres{
+            text-align: left;
+
+            .ParticipaciónMujeres-Titulo{
+                padding: 10px;
+
+                b{
+                    font-size: 20px;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .ParticipaciónMujeres-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 15px;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .MujeresPintoras{
+            text-align: end;
+            padding: 10px;
+
+            b{
+                font-size: 20px;
+                color: purple;
+            }
+
+            b:hover{
+                color: red;
+                transition: 2s;
+            }
+
+        }
+
+        .Cuadros-Mujeres{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 3px solid red;
+
+            .Cuadro-LilliaCarrillo{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 3px solid red;
+                background-color: purple;
+
+                .Nombre-LilliaCarrillo{
+                    padding: 10px;
+
+                    b{
+                        font-size: 20px;
+                        color: greenyellow;
+                    }
+
+                    b:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LilliaCarrillo{
+                    padding: 10px;
+
+                    em{
+                        font-size: 15px;
+                        color: yellow;
+                    }
+
+                    em:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LilliaCarrillo{
+                    padding: 10px;
+
+                    img{
+                        height: 350px;
+                        width: 350px;
+                        border: 5px solid aqua;
+                        border-radius: 200px;
+                    }
+
+                    img:hover{
+                        transform: scale(1.1);
+                        border: 5px solid orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LilliaCarrillo{
+                    padding: 10px;
+
+                    p{
+                        font-size: 15px;
+                        color: orange;
+                    }
+
+                    p:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-LolaCueto{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 3px solid red;
+                background-color: purple;
+
+                .Nombre-LolaCueto{
+                    padding: 10px;
+
+                    b{
+                        font-size: 20px;
+                        color: yellow;
+                    }
+
+                    b:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LolaCueto{
+                    padding: 10px;
+
+                    em{
+                        font-size: 15px;
+                        color: aqua;
+                    }
+
+                    em:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LolaCueto{
+                    padding: 10px;
+
+                    img{
+                        height: 350px;
+                        width: 350px;
+                        border: 5px solid orange;
+                        border-radius: 200px;
+                    }
+
+                    img:hover{
+                        transform: scale(1.1);
+                        border: 5px solid greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LolaCueto{
+                    padding: 10px;
+
+                    p{
+                        font-size: 15px;
+                        color: greenyellow;
+                    }
+
+                    p:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-CeliaCalderon{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 3px solid red;
+                background-color: purple;
+
+                .Nombre-CeliaCalderon{
+                    padding: 10px;
+
+                    b{
+                        font-size: 20px;
+                        color: aqua;
+                    }
+
+                    b:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-CeliaCalderon{
+                    padding: 10px;
+
+                    em{
+                        font-size: 15px;
+                        color: orange;
+                    }
+
+                    em:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-CeliaCalderon{
+                    padding: 10px;
+
+                    img{
+                        height: 350px;
+                        width: 350px;
+                        border: 5px solid greenyellow;
+                        border-radius: 200px;
+                    }
+
+                    img:hover{
+                        transform: scale(1.1);
+                        border: 5px solid yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-CeliaCalderon{
+                    padding: 10px;
+
+                    p{
+                        font-size: 15px;
+                        color: yellow;
+                    }
+
+                    p:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-RemediosVaro{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border: 3px solid red;
+                background-color: purple;
+
+                .Nombre-RemediosVaro{
+                    padding: 10px;
+
+                    b{
+                        font-size: 20px;
+                        color: orange;
+                    }
+
+                    b:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-RemediosVaro{
+                    padding: 10px;
+
+                    em{
+                        font-size: 15px;
+                        color: greenyellow;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-RemediosVaro{
+                    padding: 10px;
+
+                    img{
+                        height: 350px;
+                        width: 350px;
+                        border: 5px solid yellow;
+                        border-radius: 200px;
+                    }
+
+                    img:hover{
+                        transform: scale(1.1);
+                        border: 5px solid aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-RemediosVaro{
+                    padding: 10px;
+
+                    p{
+                        font-size: 15px;
+                        color: aqua;
+                    }
+
+                    p:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .PieDePágina-P2{
+        text-align: center;
+
+        .Referencias-P2{
+            text-align: left;
+            padding: 10px;
+
+            p{
+                font-size: 20px;
+            }
+
+        }
+
+        .Lista-Referencias-P2{
+            text-align: left;
+            padding: 10px;
+
+            li{
+                font-size: 12px;
+            }
+
+            a{
+                font-size: 16px;
+                text-decoration: none;
+                color: aquamarine;
+            }
+
+        }
+
+    }
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 10px;
+
+        .RedesSociales-Texto{
+            padding: 10px;
+
+            small{
+                font-size: 25px;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid aqua;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid gray;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid blue;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid orange;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Encabezado-P2{
+        padding: 2.5vw;
+        text-align: center;
+
+        h1{
+            font-size: 4vw;
+            color: purple;
+            text-transform: uppercase;
+        }
+
+        h1:hover{
+            color: red;
+            transition: 2s;
+        }
+
+    }
+
+    .Menu-P2{
+        text-align: center;
+
+        .Mujeres-Sociedad{
+            text-align: left;
+
+            .MujeresSociedad-Titulo{
+                padding: 1.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .MujeresSociedad-Descripción{
+                padding: 1.5vw;
+
+                em{
+                    font-size: 2vw;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Participación-Mujeres{
+            text-align: left;
+
+            .ParticipaciónMujeres-Titulo{
+                padding: 1.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                b:hover{
+                    color: black;
+                    transition: 2s;
+                }
+
+            }
+
+            .ParticipaciónMujeres-Descripción{
+                padding: 1.5vw;
+
+                em{
+                    font-size: 2vw;
+                    color: black;
+                }
+
+                em:hover{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .MujeresPintoras{
+            text-align: end;
+            padding: 1.5vw;
+
+            b{
+                font-size: 2.5vw;
+                color: purple;
+            }
+
+            b:hover{
+                color: red;
+                transition: 2s;
+            }
+
+        }
+
+        .Cuadros-Mujeres{
+            display: flex;
+            justify-content: center;
+            border: 0.5vw solid red;
+            background-color: purple;
+
+            .Cuadro-LilliaCarrillo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 0.5vw solid red;
+                background-color: purple;
+
+                .Nombre-LilliaCarrillo{
+                    padding: 1vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: greenyellow;
+                    }
+
+                    b:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LilliaCarrillo{
+                    padding: 1vw;
+
+                    em{
+                        font-size: 1.7vw;
+                        color: yellow;
+                    }
+
+                    em:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LilliaCarrillo{
+                    padding: 1vw;
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                        border: 0.6vw solid aqua;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 0.6vw solid orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LilliaCarrillo{
+                    padding: 1vw;
+
+                    p{
+                        font-size: 1.7vw;
+                        color: orange;
+                    }
+
+                    p:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-LolaCueto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 0.5vw solid red;
+                background-color: purple;
+
+                .Nombre-LolaCueto{
+                    padding: 1vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: yellow;
+                    }
+
+                    b:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-LolaCueto{
+                    padding: 1vw;
+
+                    em{
+                        font-size: 1.7vw;
+                        color: aqua;
+                    }
+
+                    em:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-LolaCueto{
+                    padding: 1vw;
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                        border: 0.6vw solid orange;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 0.6vw solid greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-LolaCueto{
+                    padding: 1vw;
+
+                    p{
+                        font-size: 1.7vw;
+                        color: greenyellow;
+                    }
+
+                    p:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-CeliaCalderon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 0.5vw solid red;
+                background-color: purple;
+
+                .Nombre-CeliaCalderon{
+                    padding: 1vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: aqua;
+                    }
+
+                    b:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-CeliaCalderon{
+                    padding: 1vw;
+
+                    em{
+                        font-size: 1.5vw;
+                        color: orange;
+                    }
+
+                    em:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-CeliaCalderon{
+                    padding: 1vw;
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                        border: 0.6vw solid greenyellow;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 0.6vw solid yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-CeliaCalderon{
+                    padding: 1vw;
+
+                    p{
+                        font-size: 1.7vw;
+                        color: yellow;
+                    }
+
+                    p:hover{
+                        color: aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Cuadro-RemediosVaro{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 0.5vw solid red;
+                background-color: purple;
+
+                .Nombre-RemediosVaro{
+                    padding: 1vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: orange;
+                    }
+
+                    b:hover{
+                        color: greenyellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Biografía-RemediosVaro{
+                    padding: 1vw;
+
+                    em{
+                        font-size: 1.4vw;
+                        color: greenyellow;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Imagen-RemediosVaro{
+                    padding: 1vw;
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                        border: 0.6vw solid yellow;
+                        border-radius: 50vw;
+                    }
+
+                    img:hover{
+                        border: 0.6vw solid aqua;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Descripción-RemediosVaro{
+                    padding: 1vw;
+
+                    p{
+                        font-size: 1.7vw;
+                        color: aqua;
+                    }
+
+                    p:hover{
+                        color: orange;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .PieDePágina-P2{
+        text-align: center;
+
+        .Referencias-P2{
+            padding: 2vw;
+            text-align: left;
+
+            p{
+                font-size: 2.5vw;
+            }
+
+        }
+
+        .Lista-Referencias-P2{
+            padding: 2vw;
+            text-align: left;
+
+            li{
+                font-size: 2vw;
+            }
+
+            a{
+                font-size: 2.9vw;
+                text-decoration: none;
+                color: aquamarine;
+            }
+
+        }
+
+    }
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 20px;
+
+        .RedesSociales-Texto{
+            padding: 20px;
+
+            small{
+                font-size: 3vw;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid aqua;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid gray;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid blue;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid orange;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+        }
+
+    }
+
+}
